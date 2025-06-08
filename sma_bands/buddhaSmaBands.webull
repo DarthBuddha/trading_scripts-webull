@@ -10,25 +10,57 @@ len8 = define(377, min=1, name="Length")
 src = define(close, name="Source")
 
 out1 = ind.sma(src, len1)
-plt(out1, color=#ffffff, line_width=3, label_on_y_axis=true, name="MA 1")
+plt(out1, 
+  color=#ffffff, 
+  line_width=3, 
+  label_on_y_axis=true, 
+  name="MA 1")
 
 out2 = ind.sma(src, len2)
-plt(out2, color=#ffffff, line_width=1, label_on_y_axis=true, name="MA 2")
+plt(out2, 
+  color=#ffffff, 
+  line_width=1, 
+  label_on_y_axis=true, 
+  name="MA 2")
 
 out3 = ind.sma(src, len3)
-plt(out3, color=#00ffff, line_width=3, label_on_y_axis=true, name="MA 3")
+plt(out3, 
+  color=#00ffff, 
+  line_width=3, 
+  label_on_y_axis=true, 
+  name="MA 3")
 
 out4 = ind.sma(src, len4)
-plt(out4, color=#0000ff, line_width=1, label_on_y_axis=true, name="MA 4")
+plt(out4, 
+  color=#0000ff, 
+  line_width=1, 
+  label_on_y_axis=true, 
+  name="MA 4")
 
 out5 = ind.sma(src, len5)
-plt(out5, color=#ffff00, line_width=3, label_on_y_axis=true, name="MA 5")
+plt(out5, 
+  color=#ffff00, 
+  line_width=3, 
+  label_on_y_axis=true, 
+  name="MA 5")
 
 out6 = ind.sma(src, len6)
-plt(out6, color=#ff8000, line_width=1, label_on_y_axis=true, name="MA 6")
+plt(out6, 
+  color=#ff8000, 
+  line_width=1, 
+  label_on_y_axis=true, 
+  name="MA 6")
 
 out7 = ind.sma(src, len7)
-plt(out7, color=#ff37ff, line_width=3, label_on_y_axis=true, name="MA 7")
+plt(out7, 
+  color=#ff37ff, 
+  line_width=3, 
+  label_on_y_axis=true, 
+  name="MA 7")
 
 out8 = ind.sma(src, len8)
-plt(out8, color=#800080, line_width=1, label_on_y_axis=true, name="MA 8")
+plt(out8, 
+  color=#800080, 
+  line_width=1, 
+  label_on_y_axis=true, 
+  name="MA 8")
